@@ -88,7 +88,8 @@ The expected project structure is:
 EPOCH/
 ├── EPOCH.py
 ├── EPOCH/
-│   └── pretrained model files
+│   └── config.json
+│   └── model.safetensors
 ├── example/
 │   └── example_seq.txt
 ├── figures/
