@@ -26,4 +26,4 @@ Example:
 ```
 python EPOCH.py ./example/example_seq.txt
 ```
-The results will be saved in **results** folder automatically, or you can modify the source code in **EPOCH.py** to save your results more customistically. The result file provides the predicted probability for each amino acid. The predicted labels are obtained using the default threshold of 0.1191, where ​1 indicates an interacting amino acid and ​0 indicates a non-interacting amino acid.
+The results will be saved in **results** folder automatically, or you can modify the source code in **EPOCH.py** to save your results more customistically. The result file provides the predicted probability for each amino acid. The predicted labels are obtained using the default threshold of 0.0775, where ​1 indicates an interacting amino acid and ​0 indicates a non-interacting amino acid.
