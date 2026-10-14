@@ -1,5 +1,5 @@
 # EPOCH
-This is a sequence-based fine-tuned ESM-2 model, named HLPartner, for predicting paired epitope and paratope.  you can clone this repository locally:
+This is a sequence-based fine-tuned ProtBERT model, named EPOCH, for predicting paired epitope and paratope.  you can clone this repository locally:
 ```
 git clone https://github.com/zzyywww/EPOCH.git 
 cd EPOCH
