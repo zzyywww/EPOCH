@@ -91,7 +91,7 @@ EPOCH/
 │   └── config.json
 │   └── model.safetensors
 ├── example/
-│   └── example_seq.txt
+│   └── example.txt
 ├── figures/
 │   └── EPOCH_workflow.png
 ├── requirements.txt
@@ -114,7 +114,7 @@ Each row represents one antibody–antigen sequence pair. The column names must 
 An example input file is provided at:
 
 ```text
-./example/example_seq.txt
+./example/example.txt
 ```
 
 ## Usage
@@ -128,7 +128,7 @@ python EPOCH.py <inputfile>
 Example:
 
 ```bash
-python EPOCH.py ./example/example_seq.txt
+python EPOCH.py ./example/example.txt
 ```
 
 ## Output
